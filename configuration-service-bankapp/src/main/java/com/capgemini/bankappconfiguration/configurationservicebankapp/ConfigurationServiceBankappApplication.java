@@ -1,0 +1,15 @@
+package com.capgemini.bankappconfiguration.configurationservicebankapp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
+@EnableConfigServer
+@SpringBootApplication
+public class ConfigurationServiceBankappApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ConfigurationServiceBankappApplication.class, args);
+	}
+
+}
+
